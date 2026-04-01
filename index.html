@@ -141,6 +141,30 @@ Acceso inmediato • Guardá esta página en tu celular
 </div>
 
 </div>
+  <div style="margin-top:30px; padding:20px; border-radius:16px; background: rgba(255,255,255,0.7); backdrop-filter: blur(10px);">
+
+  <p style="font-size:14px; margin-bottom:10px;">
+  📲 Usalo como una app en tu celular
+  </p>
+
+  <button onclick="mostrarInstrucciones()" style="margin-top:10px; padding:10px 15px; border:none; border-radius:10px; background:#8773BE; color:white;">
+    Ver cómo instalar
+  </button>
+
+</div>
+
+<div id="instrucciones" style="display:none; margin-top:15px; font-size:13px; opacity:0.8;">
+  En Chrome:
+  1. Tocá los 3 puntos arriba a la derecha  
+  2. Seleccioná "Agregar a pantalla de inicio"  
+  3. Confirmá  
+</div>
+
+<script>
+function mostrarInstrucciones(){
+  document.getElementById("instrucciones").style.display = "block";
+}
+</script>
 
 </body>
 </html>
